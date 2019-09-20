@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Домашняя страница</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+   <body>
+    <header>
+        <h1><a name="main">Мой сайт</a></h1>
+      <nav>
+        <ul class="main-menu">
+            <li class="main-menu"><a href="#main">На главную</a></li>
+            <li class="main-menu"><a href="#me">Обо мне</a></li>
+            <li class="main-menu"><a href="#task">Задания</a></li>
+        </ul>
+      </nav> 
+    <img src="img/photo2.jpg" class="center-pic">
+    <p class="photo">Шишкин Максим</p>
+    </header>
+        <blockquote><p>"Всем привет! Добро пожаловать на мой первый сайт. Ещё недавно я понятия не имел, кто такой верстальщик, а теперь я нашёл интерактивные курсы по HTML и CSS и поставил перед собой цель — стать им. У меня даже появился инструктор — Кекс, который не позволит мне расслабиться и будет следить за моими успехами."</p></blockquote>
+        <h2><a name="me">Полезная информация (Обо мне)</a></h2>
+        <ul class="ul1">
+            <li>Мой адрес: makcim.97@inbox.ru</li>
+            <li>Мой ВУЗ: <a href="https:\\www.nvsu.ru">НВГУ</a></li>
+            <li>Моя группа: 3702
+            <li>Моя будущая профессия: Верстка сайтов
+            <li>Мое хобби: Верстать сайты
+            <li>Мой любимый цвет: зеленый
+        </ul>
+    </body>
+    <h3><a name="task">Задание 1. Таблицы</a></h3>
+    <table class="table1">
+        <tr>
+            <td colspan="5"></td>
+        </tr>
+        <tr>
+        <td rowspan="3"></td>
+        <td></td>
+        <td rowspan="3"></td>
+        <td></td>
+        <td></td>
+        </tr>
+        <tr>
+        <td rowspan="3"></td>
+        <td rowspan="3"></td>
+        <td></td>
+        </tr>
+        <tr>
+        <td></td>
+        </tr>
+        <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        </tr>
+    </table>
+    <br>
+    <h3>Таблица 2</h3>
+    <table class="table2">
+        <tr>
+           <td colspan="8" bgcolor="cyan"></td> 
+        </tr>
+        <tr>
+            <td rowspan="6" bgcolor="lightyellow"></td>
+            <td colspan="6" bgcolor="cyan"></td>
+            <td rowspan="6" bgcolor="lightyellow"></td>
+        </tr>
+        <tr>
+            <td rowspan="4" bgcolor="lightyellow"></td>
+            <td colspan="4" bgcolor="cyan"></td>
+            <td rowspan="4" bgcolor="lightyellow"></td>
+        </tr>
+        <tr>
+            <td rowspan="2" bgcolor="lightyellow"></td>
+            <td bgcolor="red"></td>
+            <td bgcolor="blue"></td>
+            <td rowspan="2" bgcolor="lightyellow"></td>
+        </tr>
+        <tr>
+            <td bgcolor="springgreen"></td>
+            <td bgcolor="yellow"></td>
+        </tr>
+        <tr>
+             <td colspan="4" bgcolor="cyan"></td>
+        </tr>
+        <tr>
+            <td colspan="6" bgcolor="cyan"></td>
+        </tr>
+        <tr>
+            <td colspan="8" bgcolor="cyan"></td>
+        </tr>
+    </table><br>
+    <h4>ЗАО Птицефабрика №1</h4>
+    <form>
+    <label for="fam">Фамилия</label>
+    <input type="text" id="fam" name="fam">
+    <label for="inicial">Инициалы</label>
+    <input type="text" id="inicial" name="inicial">
+    <label for="pass">Пароль</label>
+    <input type="text" id="pass" name="pass">
+    <label for="mail">Адрес получателя</label>
+    <input type="email" id="mail" name="mail">
+    <label for="count">Количество</label>
+    <input type="number" id="count" name="count">
+    <label>Тип</label> 
+    <select>
+        <option>Куриные</option>
+        <option>Перепелиные</option>
+    </select>
+    <select>
+        <option>Отборные</option>
+        <option>С2</option>
+        <option>С3</option>
+    </select>
+    <label for="dostavka">Доставка</label>
+    <input type="radio" name="name" value="p" id="dostavka">Почтой
+    <input type="radio" name="name" value="e" id="dostavka">Электронно
+    <input type="radio" name="name" value="c" id="dostavka">Курьером
+    <label for="naklad">Требуется накладная</label>
+    <input type="checkbox" id="naklad" name="naklad">
+    <label for="dop">Дополнительная информация</label>
+    <textarea rows="3" id="dop" name="dop info"></textarea><br>
+    <div class="button1">
+    <button type="submit">Заказать</button>
+    <button type="reset">Отменить</button>
+    </div>
+    </form><br>
+    <h3> Форма регистрации сайта</h3>
+    <form class="form2">
+        <label for="log">Логин</label>
+        <input type="text" name="login" id="log">
+        <label for="pass2">Пароль</label>
+        <input type="password" name="pass2" id="pass2">
+        <label for="url">Url-адрес сайта</label>
+        <input type="url" name="url" id="url">
+        <label for="name_site">Название сайта</label>
+        <input type="text" name="name_site" id="name_site">
+        <label>Описание сайта</label> <textarea rows="5"></textarea>
+        <label>Тема сайта</label>
+        <select>
+            <option>Не выбрано</option>
+            <option>Спорт</option>
+            <option>Развлечения</option>
+        </select>
+        <label for="file">Баннер 88х31</label>
+        <input type="file" name="img" id="file" value="Обзор">
+         <div class="button1">
+        <button type="submit">Отправить</button>
+        <button type="reset">Отменить</button>
+        </div>
+    </form>
+    <footer>
+        <p class="footer">2019</p>
+    </footer>
+</html>

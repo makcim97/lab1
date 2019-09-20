@@ -1,0 +1,144 @@
+main{}
+
+nav{
+    text-align: center;
+}
+
+body {
+  background: url("img\background.png");
+  padding: 0 30px;
+  font-size: 14px;
+  line-height: 22px;
+  font-family: "Georgia", serif;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: normal;
+    text-align: left;
+}
+
+h2{
+    font-size: 16px;
+    margin-right: 20%;
+}
+
+h3{
+    text-align: center;
+    font-size: 16px;
+}
+
+h4{
+    text-align: center;
+    font-size: 16px;
+    margin-right: 20%;
+}
+
+.p2 {
+  font-size: 25px;
+  line-height: normal;
+}
+
+.ul1{
+   
+}
+li{
+    font-size: 16px;
+}
+
+.main-menu li {
+    font-size: 20px;
+    background-color: lightyellow;
+    text-align: center;
+  display: inline-block;
+  margin-right: 1em;
+}
+
+img {
+    padding-top: 20px;
+    width: 150px; 
+    height: 150px; 
+    border: none;
+}
+.photo{
+    font-size: 20px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: cyan;
+}
+
+
+p {
+    font-size: 18px;
+}
+.center-pic{
+display:block;
+margin:auto;
+}
+
+.footer {
+    padding-top: 40px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.table1 {
+  border-collapse: collapse;
+  border-spacing: 4px;
+  border: 1px solid black;
+  margin-left: 200px;
+  margin-top: 20px;
+}
+
+.table2 {
+  border-collapse: collapse;
+  border-spacing: 4px;
+  border: 1px solid black;
+  margin-left: 450px;
+  margin-top: 20px;
+}
+
+.table1 td {
+  padding: 15px;
+  padding-right: 150px;
+  border: 1px solid black;
+}
+
+.table2 td {
+  padding: 20px;
+  padding-right: 20px;
+  border: 1px solid black;
+}
+
+form{
+    border: 1px solid red;
+    padding: 10px;
+    width: 30%;
+    margin-left: 33%;
+}
+
+label{
+    padding-right: 5px;
+    display: block;
+}
+
+input{
+    margin-left: 5px;
+    border: 1px solid blue;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+textarea{
+    border: 1px solid blue;
+    width: 90%;
+}
+
+select {
+    border: 1px solid blue;
+}
+
+.button1 {
+    margin-top: 10px;
+    margin-left: 30%;
+}
